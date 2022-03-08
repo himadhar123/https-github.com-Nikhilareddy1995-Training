@@ -18,8 +18,10 @@ public class Sample2 {
         System.out.println(a + b);
     }
 
-    void sample(){
-        System.out.println("hi");
+   
+
+    public static void main(String[] args) {
+
     }
 
 }
