@@ -22,7 +22,7 @@ public class Sample {
 	// some task
 	// over loading
 	public void addTwoNumbers(int a, int b) {
-		System.out.println("Jhansi" + a + b);// Jhansi 101
+		System.out.println("Jhansi" + a + b);// Jhansi 110
 		System.out.println(a + b + "Jhansi " + a + b);// 11 Jhansi 110
 	}
 
@@ -31,8 +31,8 @@ public class Sample {
 		System.out.println("hello India");
 	}
 
-	public void addTwoNumbers(long a, int b) {
-		System.out.println("NIkhila" + (a + b));
+	public void addTwoNumbers(long abc, int b) {
+		System.out.println("NIkhila" + (abc + b));
 	}
 
 	public void addTwoNumbers(String a, int b) {

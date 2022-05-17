@@ -1,11 +1,22 @@
 package com.javainuse;
 
-public class Employee extends A implements A1, A2 {
+public class Employee extends AccessSpecifiers implements A1, A2 {
+	@Override
+	public void sub() {
+		// TODO Auto-generated method stub
+
+	}
 
 	@Override
-	public void add() {
-		System.out.println("india");
+	public void sub(int a) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public static void main(String[] args) {
+		Employee e=new Employee();
 		
+
 	}
 
 }
@@ -23,9 +34,9 @@ class B {
 }
 
 interface A1 {
-	public void add();
+	public void sub();
 }
 
 interface A2 {
-	public void add();
+	public void sub(int a);
 }
