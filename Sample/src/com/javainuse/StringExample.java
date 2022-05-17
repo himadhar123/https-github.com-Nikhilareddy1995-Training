@@ -26,7 +26,7 @@ public class StringExample {
 		// System.out.println(name);
 
 		for (int i = 1; i <= 100; i++) {
-			// System.out.println(i);
+			 System.out.println(i);
 		}
 		// 1.0v--> thread safe--it wont multithreading--performance low--synchronized
 		// SBuffer and SBuilder
@@ -45,3 +45,5 @@ public class StringExample {
 	}
 
 }
+//created a branch
+//check out to that branch

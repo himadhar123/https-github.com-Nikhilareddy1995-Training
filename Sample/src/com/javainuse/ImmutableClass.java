@@ -4,7 +4,7 @@ package com.javainuse;
 //fields-- assignement mand we cant change the vale
 public final  class  ImmutableClass {
 	private final int a=10;
-	public ImmutableClass() {
+	public ImmutableClass() { 
 		
 	}
 	public int getA() {
